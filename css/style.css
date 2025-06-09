@@ -1,1 +1,39 @@
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #111;
+  color: white;
+}
+header {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.overlay {
+  text-align: center;
+  background-color: rgba(0,0,0,0.6);
+  padding: 2rem;
+}
+.quote-button {
+  padding: 0.8rem 1.5rem;
+  background-color: #e63946;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input, form select, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
