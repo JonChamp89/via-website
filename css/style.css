@@ -1,1 +1,18 @@
 
+body { margin: 0; font-family: Arial, sans-serif; color: #fff; background-color: #111; }
+header, footer { background: #000; padding: 10px 20px; text-align: center; }
+.logo { font-size: 1.5em; font-weight: bold; }
+nav ul { list-style: none; padding: 0; display: flex; justify-content: center; }
+nav ul li { margin: 0 15px; }
+nav ul li a { color: #fff; text-decoration: none; }
+nav ul li a.active { text-decoration: underline; }
+.banner img { width: 100%; max-height: 500px; object-fit: cover; }
+.banner-text { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; }
+.btn { background: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+.service-section { padding: 40px 20px; background: #222; margin-bottom: 10px; }
+.service-section h2 { font-size: 2em; }
+.contact-section { display: flex; justify-content: space-between; padding: 20px; background: #222; }
+.contact-info { width: 40%; }
+.contact-form { width: 50%; display: flex; flex-direction: column; }
+.contact-form label, .contact-form input, .contact-form select, .contact-form textarea, .contact-form button { margin-bottom: 10px; width: 100%; padding: 10px; }
+footer p { font-size: 0.9em; color: #ccc; }
